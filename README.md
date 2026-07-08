@@ -6,15 +6,17 @@ The is a fork of the origial HackTheBox-Markdown-Clipper by [@serenity646](https
 
 ## Features
 
-📋 Hover button — a copy button appears on every code block when you hover over it
-  // i haven't been able to get this to work - maybe someday i'll take the time and figure out what the issue is.
-
 🖱️ Right-click menu — right-click any code block and select Copy as Markdown
 
 🎨 Language detection — automatically detects the language and formats the fence (e.g. ```bash, ```python)
 
 ⚡ Works dynamically — picks up code blocks loaded after page render
 
+## Features that should work but don't
+
+When I get time I'll figure out why this doesn't work...
+
+📋 Hover button — a copy button appears on every code block when you hover over it
 
 ## Installation
 Load it manually in Chrome:
@@ -36,7 +38,6 @@ git clone https://github.com/c1dn3y/HackTheBox-Markdown-Clipper.git
 
 Navigate to any HackTheBox Enterprise module page with code blocks, then either:
 
-- **Hover** over a code block and click the 📋 button that appears //maybe one day this will work
 - **Right-click** anywhere inside a code block and choose *📋 Copy as Markdown*
 - **Select specific lines** inside a code block, then right-click and choose *📋 Copy as Markdown* to copy only the selected portion
 
@@ -53,14 +54,22 @@ nmap -sV -sC -oA scan 10.10.10.10
 Supported Languages
 bash · powershell · python · sql · javascript · typescript · php · java · go · html · xml · yaml · json · css · c · cpp · csharp · nasm
 
+
+## Future Usage 
+
+When I get time I'll figure out why this doesn't work...
+
+- **Hover** over a code block and click the 📋 button that appears
+  
+
 ## Special Thanks
 
-[@echoesofwhoami](https://github.com/echoesofwhoami) — for helping develop this extension
+Thank you for all your hard work in developing the original project! 
+[@serenity646](https://github.com/SeverSerenitygit)
+[@echoesofwhoami](https://github.com/echoesofwhoami) 
 
 
 ## Disclaimer
 This is an unofficial community tool and is not affiliated with or endorsed by HackTheBox. The HackTheBox logo is property of HackTheBox Ltd and is used with permission for non-commercial community projects.
 
-Initially scaffolded with AI assistance, extended and maintained by [@serenity646](https://github.com/SeverSerenitygit) and contributors.
-
-Fork by [@c1dn3y](https://github.com/c1dn3y)
+Fork by [@c1dn3y](https://github.com/c1dn3y) from [HackTheBox-Markdown-Clipper](https://github.com/SeverSerenitygit/HackTheBox-Markdown-Clipper).
