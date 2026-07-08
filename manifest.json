@@ -9,13 +9,13 @@
     "128": "icons/icon128.png"
   },
   "permissions": ["contextMenus", "scripting"],
-  "host_permissions": ["https://academy.hackthebox.com/*"],
+  "host_permissions": ["https://enterprise.hackthebox.com/*"],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://academy.hackthebox.com/*"],
+      "matches": ["https://enterprise.hackthebox.com/*"],
       "js": ["content.js"],
       "css": ["styles.css"],
       "run_at": "document_idle"
