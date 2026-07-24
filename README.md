@@ -2,7 +2,7 @@
 A Chrome extension that lets you copy [HackTheBox Enterprise](https://enterprise.hackthebox.com/) code blocks as properly formatted Markdown fences — instantly, with one click. Perfect for Obsidian notes and writeups.
 
 # Credit Where Credit is Due
-The is a fork of the origial HackTheBox-Markdown-Clipper by [@serenity646](https://github.com/SeverSerenitygit). All I did was change a few lines of code so it works with HTB Enterprise instead of HTB Academy. All thanks goes to them and all contributors to the original project.
+The is a fork of the original HackTheBox-Markdown-Clipper by [@serenity646](https://github.com/SeverSerenitygit). All I did was change a few lines of code so it works with HTB Enterprise instead of HTB Academy. All thanks goes to them and all contributors to the original project.
 
 ## Features
 

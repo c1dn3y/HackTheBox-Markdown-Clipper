@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "HTB Markdown Clipper",
   "version": "1.0",
-  "description": "Copy HackTheBox Academy code blocks as Markdown fences — via hover button or right-click. Perfect for Obsidian notes.",
+  "description": "Copy HackTheBox Enterprise code blocks as Markdown fences — via hover button or right-click. Perfect for Obsidian notes.",
   "icons": {
     "16":  "icons/icon16.png",
     "48":  "icons/icon48.png",

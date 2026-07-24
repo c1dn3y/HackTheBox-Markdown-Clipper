@@ -33,15 +33,14 @@ function doHTBCopy() {
 
   // ── Step 2: Find all HTB code blocks on the page ──
   // Real HTB structure from DOM inspection:
-  //   <pre class="language-sql shiki shiki-themes ...">
-  //     <span class="float-end ...">sql</span>   ← label (ignored for text extraction)
+  //   <pre class="language-shell-session">
+  //     <span class="token command">sql</span>   ← label (ignored for text extraction)
   //     <code>
-  //       <span class="line" line="1"><span style="...">text</span>...</span>
-  //       <span class="line" line="2"><span emptylineplaceholder="true">\n</span></span>
+  //       <span class="token output" line="1">text</span>
   //       ...
   //     </code>
   //   </pre>
-  const allPre = Array.from(document.querySelectorAll("pre.shiki"));
+  const allPre = Array.from(document.querySelectorAll("pre.language-shell-session"));
 
   if (allPre.length === 0) {
     showToast("❌ No code blocks found on this page.", true);
@@ -85,7 +84,7 @@ function doHTBCopy() {
   }
 
   // ── Step 4: Detect language from the pre's class ──
-  // Classes look like: "language-sql shiki shiki-themes ..."
+  // Classes look like: "language-..."
   const cls = closestPre.className;
   let lang = "";
   const langMatch = cls.match(/language-(\S+)/);
