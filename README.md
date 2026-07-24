@@ -12,10 +12,6 @@ The is a fork of the original HackTheBox-Markdown-Clipper by [@serenity646](http
 
 ⚡ Works dynamically — picks up code blocks loaded after page render
 
-## Features that should work but don't
-
-When I get time I'll figure out why this doesn't work...
-
 📋 Hover button — a copy button appears on every code block when you hover over it
 
 ## Installation
@@ -40,6 +36,7 @@ Navigate to any HackTheBox Enterprise module page with code blocks, then either:
 
 - **Right-click** anywhere inside a code block and choose *📋 Copy as Markdown*
 - **Select specific lines** inside a code block, then right-click and choose *📋 Copy as Markdown* to copy only the selected portion
+- - **Hover** over a code block and click the 📋 button that appears
 
 The code is copied to your clipboard with a Markdown fence, ready to paste into Obsidian or any Markdown editor:
 
@@ -53,13 +50,6 @@ nmap -sV -sC -oA scan 10.10.10.10
 
 Supported Languages
 bash · powershell · python · sql · javascript · typescript · php · java · go · html · xml · yaml · json · css · c · cpp · csharp · nasm
-
-
-## Future Usage 
-
-When I get time I'll figure out why this doesn't work...
-
-- **Hover** over a code block and click the 📋 button that appears
   
 
 ## Special Thanks
