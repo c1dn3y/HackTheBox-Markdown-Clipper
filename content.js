@@ -2,7 +2,7 @@
   const CONFIG = {
     buttonClass: 'htb-copy-button',
     toastId: 'htb-md-toast',
-    selector: 'pre.shiki',
+    selector: 'pre[class^="language-"], pre[class*=" language-"]',
     langMap: {
       "shellsession": "bash",
       "shell":        "bash",

@@ -40,7 +40,8 @@ function doHTBCopy() {
   //       ...
   //     </code>
   //   </pre>
-  const allPre = Array.from(document.querySelectorAll("pre.language-shell-session"));
+  const allPre = Array.from(document.querySelectorAll("pre")).filter(pre =>
+  [...pre.classList].some(cls => cls.startsWith("language-")));
 
   if (allPre.length === 0) {
     showToast("❌ No code blocks found on this page.", true);

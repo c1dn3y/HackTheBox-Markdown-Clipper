@@ -20,7 +20,8 @@
   pointer-events: auto !important;
 }
 
-pre.shiki:hover .htb-copy-button {
+pre[class^="language-"]:hover .htb-copy-button,
+pre[class*=" language-"]:hover .htb-copy-button {
   opacity: 1 !important;
 }
 
