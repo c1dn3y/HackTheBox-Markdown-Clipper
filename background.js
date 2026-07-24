@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(() => {
     id: "htb-copy-md",
     title: "📋 Copy as Markdown",
     contexts: ["all"],
-    documentUrlPatterns: ["https://academy.hackthebox.com/*"]
+    documentUrlPatterns: ["https://enterprise.hackthebox.com/*"]
   });
 });
 
